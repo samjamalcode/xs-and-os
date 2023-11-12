@@ -220,3 +220,27 @@ main {
     background-size: cover;
 }
 
+#heading-error {
+    font-size: 2em;
+    color: #333;
+}
+
+#paragraph-error {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#paragraph-error a {
+    color: #ff0400;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+#paragraph-error a:hover {
+    text-decoration: underline;
+}
+
+
+
+
