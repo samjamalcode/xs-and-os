@@ -69,7 +69,16 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-
-
+    // Reset the game
+    window.resetGame =- function () {
+        gameBoard = ["", "", "", "", "", "", "", "", ""];
+        currentPlayer = "X";
+        status.textContent = `Player ${currentPlayer}'s turn`;
+        let cells = document.querySelectorAll(".cell");
+        cells.forEach(cell => {
+            cell.classList.remove("winner", "X", "O");
+            cell.textContent = "";
+        });
+    };
     
-})
+});
