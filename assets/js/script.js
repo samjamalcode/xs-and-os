@@ -37,7 +37,30 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    
+    // Check for the winner 
+    function checkWinner() {
+        let winPatterns = [
+            [0, 1, 2],
+            [3, 4, 5],
+            [6, 7, 8],
+            [0, 3, 6],
+            [1, 4, 7],
+            [2, 5, 8],
+            [0, 4, 8],
+            [2, 4, 6],
+        ];
+
+        for (let pattern of winPatterns) {
+            let [a, b, c] = pattern;
+            if (gameBoard[a] !== "" && gameBoard[a] === gameBoard[b] && gameBoard[b] === gameBoard[c]) {
+                highlightWinningCells(pattern);
+                return true;
+            }
+        }
+        return false;
+    }
+
+
 
     
 })
