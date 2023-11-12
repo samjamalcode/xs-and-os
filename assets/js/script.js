@@ -28,6 +28,16 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     }
+
+    // Update the visual representation of the board
+    function updateBoard() {
+        let cells = document.querySelectorAll(".cell");
+        cells.forEach((cell, index) => {
+            cell.textContent = gameBoard[index];
+        });
+    }
+
     
+
     
 })
