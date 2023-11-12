@@ -55,3 +55,16 @@ header {
     flex-basis: 50%;
     color: black;
 }
+
+.play-button {
+    margin-top: 30px;
+}
+
+.play-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0400;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
