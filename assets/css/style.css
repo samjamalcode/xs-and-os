@@ -68,3 +68,19 @@ header {
     text-decoration: none;
     border-radius: 5px;
 }
+
+/* Footer styles */
+footer {
+    background-color: #ff0400;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 80px;
+}
