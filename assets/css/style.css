@@ -84,3 +84,31 @@ footer {
 .social-media a {
     margin: 0 80px;
 }
+
+/* Media query: /*
+/* (phones, 576px and up) */
+@media (max-width: 576px) {
+    .two-column-text {
+        /* Display columns on top of each other */
+        flex-direction: column;
+    }
+
+    .hero-section {
+        /* Height set to auto for smaller screens */
+        height: auto;
+    }
+
+    footer {
+        /* keep the footer static on smaller devices */
+        position: static;
+        font-size: 1.4rem;
+    }
+
+    .social-media {
+        margin-top: 10px;
+    }
+
+    .social-media a {
+        margin: 0 30px;
+    }
+}
