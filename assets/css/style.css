@@ -1,3 +1,37 @@
 /* Google font family import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header styles */
+header {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+/* Main styles */
+.hero-section {
+    color: white;
+    text-align: left;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flext-start;
+    height: 100vh;
+    background-image: url('/assets/images/tic-tak-toe-red-bg.jpg');
+}
