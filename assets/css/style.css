@@ -1,7 +1,12 @@
 /* Google font family import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
-body, h1, h2, p, ul, li {
+body,
+h1,
+h2,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -120,7 +125,8 @@ footer {
         height: 77vh;
     }
 
-    #left-column, #right-column {
+    #left-column,
+    #right-column {
         flex-basis: 50%;
     }
 
@@ -136,7 +142,9 @@ footer {
         font-size: 2em;
     }
 
-    p, ul, li {
+    p,
+    ul,
+    li {
         font-size: 1.2em;
     }
 
@@ -168,7 +176,9 @@ footer {
         font-size: 2.5em;
     }
 
-    p, ul, li {
+    p,
+    ul,
+    li {
         font-size: 1.4em;
     }
 
@@ -197,7 +207,9 @@ footer {
         font-size: 3em;
     }
 
-    p, ul, li {
+    p,
+    ul,
+    li {
         font-size: 1.6em;
     }
 }
@@ -241,6 +253,14 @@ main {
     text-decoration: underline;
 }
 
+/* Media query:*/
+/*(phones, 576px and up) */
+@media (max-width: 576px) {
+    #heading-error {
+        font-size: 1.2em;
+    }
 
-
-
+    #paragraph-error {
+        font-size: 0.8em;
+    }
+}
