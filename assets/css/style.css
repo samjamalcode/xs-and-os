@@ -202,3 +202,21 @@ footer {
     }
 }
 
+
+
+/* 404 error page */
+
+main {
+    text-align: center;
+}
+
+/* Adding image to the background */
+#error-bg {
+    margin-top: 20px;
+    background-image: url(/assets/images/tic-tak-toe-red-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
