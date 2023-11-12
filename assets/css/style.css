@@ -112,3 +112,36 @@ footer {
         margin: 0 30px;
     }
 }
+
+/* Larger devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .hero-section {
+        padding: 30px;
+        height: 77vh;
+    }
+
+    #left-column, #right-column {
+        flex-basis: 50%;
+    }
+
+    .play-button a {
+        padding: 20px 40px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p, ul, li {
+        font-size: 1.2em;
+    }
+
+    footer {
+        font-size: 2rem;
+    }
+}
+
