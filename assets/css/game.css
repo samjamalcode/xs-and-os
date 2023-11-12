@@ -17,6 +17,14 @@ body {
     text-align: center;
 }
 
+/* Header 1 styling */
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
 /* Game board styling */
 .board {
     display: grid;
