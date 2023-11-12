@@ -35,3 +35,40 @@ body {
     justify-content: center;
     cursor: pointer;
 }
+
+/* Cell hover effect */
+.cell:hover {
+    background-color: #f2f2f2;
+}
+
+.cell.X {
+    color: red;
+}
+
+.cell.O {
+    color:red;
+}
+
+
+.cell.winner {
+    background-color: #ffcccb;
+}
+
+.status {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff0400;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
