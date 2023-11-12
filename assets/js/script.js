@@ -6,5 +6,28 @@ document.addEventListener("DOMContentLoaded", () => {
     let gameBoard = ["", "", "", "", "", "", "", "", ""];
 
     // Create cells and add click event listerner
+    for (let i = 0; i < 9 ; i++) {
+        let cell = document.createElement("div");
+        cell.classList.add("cell");
+        cell.addEventListener("click", () => handleCellClick(i));
+        board.appendChild(cell);
+    }
+
+    // Handle cell click
+    function handleCellClick(index) {
+        if (gameBoard[index] === "" && !checkWinner()) {
+            gameBoard[index] = currentPlayer;
+            updateBoard();
+            if (checkWinner()) {
+                status.textContent = `${currentPlayer} wins!`;
+            } else if (gameBoard.every(cell => cell !== "")) {
+                status.textContent = "It's a draw!";
+            } else {
+                currentPlayer = currentPlayer === "X" ? "0" : "X";
+                status.textContent = `Player ${currentPlayer}'s turn`;
+            }
+        }
+    }
+    
     
 })
