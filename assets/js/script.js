@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let gameBoard = ["", "", "", "", "", "", "", "", ""];
 
     // Create cells and add click event listerner
-    for (let i = 0; i < 9 ; i++) {
+    for (let i = 0; i < 9; i++) {
         let cell = document.createElement("div");
         cell.classList.add("cell");
         cell.addEventListener("click", () => handleCellClick(i));
@@ -70,15 +70,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Reset the game
-    window.resetGame =- function () {
+    window.resetGame = function () {
         gameBoard = ["", "", "", "", "", "", "", "", ""];
         currentPlayer = "X";
         status.textContent = `Player ${currentPlayer}'s turn`;
-        let cells = document.querySelectorAll(".cell");
+        const cells = document.querySelectorAll(".cell");
         cells.forEach(cell => {
             cell.classList.remove("winner", "X", "O");
             cell.textContent = "";
         });
     };
-    
+
 });
