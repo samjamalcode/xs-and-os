@@ -86,3 +86,51 @@ button:hover {
     background-color: #f86866;
 }
 
+/* Media query: /*
+/* (phones, 576px and up) */
+@media screen and (min-width: 576px) {
+    h1 {
+        font-size: 2.2 em;
+    }
+
+    .board {
+        grid-template-columns: repeat(3, 110px);
+    }
+
+    .cell {
+        width: 110px;
+        height: 110px;
+        font-size: 2.2em;
+    }
+
+    button {
+        font-size: 1.3em;
+        padding: 12px 24px;
+    }
+}
+
+/* Larger devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+        .board {
+            grid-template-columns: repeat(3, 140px);
+        }
+
+        .cell {
+            width: 140px;
+            height: 140px;
+            font-size: 2.5em
+        }
+
+        button {
+            font-size: 1.6em;
+            padding: 14px 28px;
+        }
+}
+
+
+
+
