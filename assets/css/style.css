@@ -174,3 +174,31 @@ footer {
 
 }
 
+/* Large devices (desktop, 1200px and up) */
+@media (min-width: 1200px) {
+    .hero-section {
+        padding: 50px;
+        height: 81vh;
+    }
+
+    .text-block {
+        max-width: 50%;
+    }
+
+    .play-button a {
+        padding: 30px 60px;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    p, ul, li {
+        font-size: 1.6em;
+    }
+}
+
