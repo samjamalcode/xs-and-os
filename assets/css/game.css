@@ -90,7 +90,7 @@ button:hover {
 /* (phones, 576px and up) */
 @media screen and (min-width: 576px) {
     h1 {
-        font-size: 2.2 em;
+        font-size: 2.2em;
     }
 
     .board {
