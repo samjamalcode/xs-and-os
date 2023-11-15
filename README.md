@@ -1,39 +1,133 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+## Features
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+# Xs & Os
 
-`python3 -m http.server`
+Xs & Os is a simple and classic implementation of the Tic Tac Toe game. Enjoy a quick and strategic two-player game on a 3x3 grid, aiming to achieve three in a row.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Home page
 
-`http_server`
+- **Game Explanation:** Learn the basics of Tic Tac Toe and its objective through a clear and concise explanation.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- **Game Rules:** Understand the rules of the game, where players take turns placing Xs and Os to create a row of three of their marks.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- **Play Game:** Dive into the fun! Click the "Play Game" button to start your Tic Tac Toe adventure.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Footer
 
----
+- The footer includes links to our social media, making it easy to stay updated on our activities.
 
-Happy coding!
+![footer](https://github.com/samjamalcode/xs-and-os/blob/main/assets/images/README_Images/footer-socialMedia.png?raw=true)
+
+## Full responsive
+
+- Whether on a laptop, tablet, or mobile phone, you can experience Tic Tac Toe with full responsive designs    that fits different devices.
+
+![full_responsive](https://github.com/samjamalcode/xs-and-os/blob/main/assets/images/README_Images/full-responsive.jpg?raw=true)
+
+## Screenshots
+
+- Here are some screenshots of what the game looks like before and after you start playing the game.
+
+
+![game-started](https://github.com/samjamalcode/xs-and-os/blob/main/assets/images/README_Images/game-started.jpg?raw=true)
+
+
+
+
+
+## Acknowledgments
+
+- Font Awesome Icons: Utilized Font Awesome for social media icons.
+
+
+
+### Remaining Features to Add
+
+
+
+- Additional Feature Suggestion.
+
+
+
+## Testing
+### Validator Testing:
+### HTML
+
+Document checking completed. No errors or warnings to show. The Document was passing the Html checker though the official website https://validator.w3.org/#validate_by_upload/ W3C validator
+
+
+### CSS
+
+Two errors were found when passing the CSS checker through the official website https://jigsaw.w3.org/css-validator/#validate_by_upload (Jigsaw) validator.
+
+- Error 1: A typo error was found in Style.css ( 39	.hero-section	flext-start is not a align-items value : flext-start ).
+
+- Error 2: A typo error was found in Style.css ( 93	h1	Value Error : font-size Too many values or values are not recognized : 2.2 em ).  
+
+- Procedure taken: Errors solved.
+
+### JavaScript
+
+Two errors were found when passing the CSS checker through the official website https://codebeautify.org/ (Code beautify) validator.
+I did googled it and I found that there might be an issue with the tool I'm using for validation.
+
+![Js-validator](https://github.com/samjamalcode/xs-and-os/blob/main/assets/images/README_Images/error.jpg?raw=true)
+
+
+- Procedure taken: Errors not solved.
+   
+
+
+## Deployment
+
+The site was deployed to GitHub. Here's how I did it:
+
+- From the "Settings" tab in Github repository and from the "Code and automation"  on left side navigation you choose “pages”.
+
+- From "Build and deployment" section and "Source" drop-down menu, select the Main branch.  
+
+- After selecting the Main branch the page will be self-refreshed and then you will see a ribbon confirming the successful deployment.
+
+
+## Credits
+### Content
+
+- The text for Home page was taken from:
+
+- https://gametable.org/games/tic-tac-toe/
+
+- https://en.wikipedia.org/wiki/Tic-tac-toe
+
+### Media
+
+- The images used on all pages were taken from:
+   https://pixabay.com/
+
+
+### Extra help
+
+- Youtube channel: 
+  
+The Queen's Pawn
+  https://www.youtube.com/watch?v=n6gzxTsbHLc&t=227s
+
+  
+Web Dev Simplified
+https://www.youtube.com/watch?v=Y-GkMjUZsmM
+
+- Website:
+  W3 Schools
+  https://www.w3schools.com/Css/
+  https://readme.so/
+
+
+
