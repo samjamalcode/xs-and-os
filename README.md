@@ -1,4 +1,16 @@
 
+![Logo](https://github.com/samjamalcode/xs-and-os/blob/main/assets/images/Logo.jpg?raw=true)
+
+# Tic Tac Toe
+
+Tic Tac Toe is a simple classic game, two-players game on a 3x3 grid. Players take turns marking an X or Os on an empty square, aiming for three in a row horizontally, vertically, or diagonally. The game ends when a player wins or when the grid is full, resulting in a draw. It’s a quick, easy game and people of all ages enjoy it.
+
+
+![App Screenshot](https://github.com/samjamalcode/xs-and-os/blob/main/assets/images/README_Images/Mock-up.jpg?raw=true)
+
+
+
+
 ## Features
 
 
